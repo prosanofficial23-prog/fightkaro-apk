@@ -1,0 +1,19 @@
+{
+  "appId": "com.fightkaro.game",
+  "appName": "FightKaro",
+  "webDir": "dist",
+  "server": {
+    "url": "https://fightkaro.com/",
+    "cleartext": false,
+    "allowNavigation": [
+      "fightkaro.com",
+      "*.fightkaro.com"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#120a06"
+  }
+}
